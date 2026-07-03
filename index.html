@@ -3,128 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Employee HR Dashboard | Tableau</title>
-
+  <title>Employees HR Dashboard</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f5f7fa;
-    }
-
-    header {
-      background: #1f2937;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-
-    header h1 {
-      font-size: 2rem;
-      margin-bottom: 8px;
-    }
-
-    header p {
-      opacity: 0.9;
-    }
-
-    .container {
-      width: 95%;
-      max-width: 1500px;
-      margin: 30px auto;
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      box-shadow: 0 5px 20px rgba(0,0,0,.15);
-    }
-
-    .tableauPlaceholder {
-      width: 100%;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; overflow: hidden; }
+    .tableauPlaceholder { width: 100vw; height: 100vh; }
   </style>
 </head>
-
 <body>
-
-<header>
-  <h1>Employee HR Dashboard</h1>
-  <p>Interactive Tableau Dashboard</p>
-</header>
-
-<div class="container">
-
-  <div class="tableauPlaceholder" id="vizTableau">
-
+  <div class='tableauPlaceholder' id='viz1783090528099' style='position:relative;width:100vw;height:100vh;'>
     <noscript>
-      <a href="#">
-        <img
-          alt="Employees HR"
-          src="https://public.tableau.com/static/images/HR/HR-Board/EmployeesHR/1_rss.png"
-          style="border:none">
-      </a>
+      <a href='#'><img alt='Employees HR' src='https://public.tableau.com/static/images/HR/HR-Board/EmployeesHR/1_rss.png' style='border:none;width:100%'/></a>
     </noscript>
-
-    <object class="tableauViz" style="display:none;">
-
-      <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F">
-
-      <param name="embed_code_version" value="3">
-
-      <param name="site_root" value="">
-
-      <param name="name" value="HR-Board/EmployeesHR">
-
-      <param name="tabs" value="no">
-
-      <param name="toolbar" value="yes">
-
-      <param name="static_image"
-             value="https://public.tableau.com/static/images/HR/HR-Board/EmployeesHR/1.png">
-
-      <param name="animate_transition" value="yes">
-
-      <param name="display_static_image" value="yes">
-
-      <param name="display_spinner" value="yes">
-
-      <param name="display_overlay" value="yes">
-
-      <param name="display_count" value="yes">
-
-      <param name="language" value="fr-FR">
-
+    <object class='tableauViz' style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='HR-Board/EmployeesHR' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/HR/HR-Board/EmployeesHR/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='fr-FR' />
     </object>
-
   </div>
-
-</div>
-
-<script>
-
-var divElement = document.getElementById('vizTableau');
-var vizElement = divElement.getElementsByTagName('object')[0];
-
-if (divElement.offsetWidth > 800) {
-    vizElement.style.width = "100%";
-    vizElement.style.height = (divElement.offsetWidth * 0.75) + "px";
-} else if (divElement.offsetWidth > 500) {
-    vizElement.style.width = "100%";
-    vizElement.style.height = (divElement.offsetWidth * 0.75) + "px";
-} else {
-    vizElement.style.width = "100%";
-    vizElement.style.height = "1800px";
-}
-
-var scriptElement = document.createElement("script");
-scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
-vizElement.parentNode.insertBefore(scriptElement, vizElement);
-
-</script>
-
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1783090528099');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '100%';
+    vizElement.style.height = '100vh';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
 </body>
 </html>
